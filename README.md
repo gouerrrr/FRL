@@ -47,7 +47,7 @@ To run a simple experiment on CIFAR10, please run the following command:
 
 
 ```bash
-python main.py --data_loc "/CIFAR10/data/" --config experiments/001_config_CIFAR10_Conv8_FRL_1000users_noniid1.0_nomalicious.txt
+python main.py --data_loc "./CIFAR10/data/" --config experiments/001_config_CIFAR10_Conv8_FRL_1000users_noniid1.0_nomalicious.txt
 ```
 
 - Note that argument 'data_loc' shows the path to dataset storage (for creation or existing dataset).
